@@ -1,0 +1,32 @@
+{
+    "name" : "erickthered/zf-library",
+    "description": "Library composed of custom controllers, loggers, models, services and helpers for faster developemnt of ZF1 projects",
+    "homepage": "http://github.com/erickthered/zf-library",
+    "license": "MIT",
+    "keywords": ["zend framework","zf1", "library"],
+    "authors": [
+        {
+            "name": "Erick Rojas",
+            "email": "erickrojaz@gmail.com",
+            "homepage": "http://erickthered.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework1": "~1.12",
+        "facebook/php-sdk-v4" : "4.0.*",
+        "guzzlehttp/guzzle" : "*",
+        "google/apiclient": "1.0.*@beta",
+        "j7mbo/twitter-api-php": "dev-master",
+        "tumblr/tumblr" : "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bdigital": "library"
+        }
+    }
+}
